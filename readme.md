@@ -1,6 +1,6 @@
-Trains Test ReadMe
+## Trains Test ReadMe
 
-Assumptions:
+### Assumptions:
  - Inputs are somewhat sanitized, for example
  	- Formatting of graph follows ABN format
 	- Formatting of path follows A-B-C format
@@ -9,7 +9,7 @@ Assumptions:
  - Max stops and max distances are <100
  - Provided input and outputs guides automated testing
 
-Improvements:
+### Improvements:
 This is by no means the best solution to the problem,
 as some of the graph transversal functions require optimization.
 
@@ -17,7 +17,7 @@ Writing the solution in TypeScript instead of JavaScript would
 produce a cleaner result. If this was a production solution I 
 would consider a lower level language if possible.
 
-Design:
+### Design:
 A weighted directed graph was implemented using the 
 graphs-adt library to save time. Some of the supplied
 methods in this library were superfluous and not fully
@@ -29,14 +29,17 @@ code comments
 
 Solution written for nodejs in JavaScript.
 
-Steps to run:
-Make sure you have node installed
+### Steps to run:
+ **Make sure you have node installed**
 
-#grap the dependencies
-npm install 
+> grap the dependencies
 
-#run test
-npm test
+```npm install```
 
-#run with supplied inputs
-node trains.js
+> run test
+
+```npm test```
+
+> run with supplied inputs
+
+```node trains.js```
