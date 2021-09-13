@@ -1,0 +1,15 @@
+{
+  "name": "trainsproblem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "trains.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Willem Marx",
+  "license": "ISC",
+  "dependencies": {
+    "graphs-adt": "^0.1.9",
+    "mocha": "^9.1.1"
+  }
+}
